@@ -176,7 +176,7 @@ h1 {
     width: 23%;
     background-color: beige;
     border-radius: 40px;
-    background-image: url("./ep.jpeg");
+    background-image: url("../Assets/Images/ep.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2px 2px  5px rgba(128, 128, 128, 0.82);
