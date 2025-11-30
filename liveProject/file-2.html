@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Care Clinic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <h2 class="logo">Royal Care Clinic</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Dr. Rahul Sharma</h1>
+            <p>General Physician & Family Health Specialist</p>
+            <a href="#contact" class="btn">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <h2>About The Doctor</h2>
+        <p>
+            Dr. Rahul Sharma is a highly experienced General Physician with over 10+ years 
+            of expertise in diagnosing and treating common health conditions.  
+            He is known for his patient-friendly care and accurate treatment.
+        </p>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+
+        <div class="service-box">
+            <h3>General Checkup</h3>
+            <p>Complete health checkup with accurate diagnosis.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Fever & Infection Treatment</h3>
+            <p>Expert care for viral, bacterial and seasonal infections.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Blood Pressure & Sugar</h3>
+            <p>Regular monitoring and preventive health guidance.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <p><strong>Address:</strong> Royal Care Clinic, Main Road, Pune, India</p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>Email:</strong> royalclinic@gmail.com</p>
+
+        <a href="tel:+919876543210" class="btn">Call Now</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Royal Care Clinic | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
+<style>
+🎨 CSS CODE (style.css)
+Royal theme – Dark Blue + Gold
+
+css
+Copy code
+ {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #fff;
+}
+
+/* NAVBAR */
+header {
+    width: 100%;
+    padding: 20px 40px;
+    background: #0A1A44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 26px;
+    color: #D4AF37;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+header nav a:hover {
+    color: #D4AF37;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(10, 26, 68, 0.7), rgba(10, 26, 68, 0.7)),
+                url('https://images.pexels.com/photos/3279197/pexels-photo-3279197.jpeg')
+                center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #D4AF37;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #D4AF37;
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 70px 50px;
+    background: #0A1A44;
+    text-align: center;
+}
+
+.about p {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+/* SERVICES */
+.services {
+    padding: 70px 50px;
+    background: #11255A;
+    text-align: center;
+}
+
+.service-box {
+    background: #0A1A44;
+    margin: 15px auto;
+    padding: 20px;
+    width: 60%;
+    border-left: 5px solid #D4AF37;
+    border-radius: 8px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 70px 50px;
+    background: #0A1A44;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    background: #000;
+    text-align: center;
+}
+</style>

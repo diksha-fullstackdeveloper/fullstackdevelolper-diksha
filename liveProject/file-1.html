@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Clinic</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5faff;
+        }
+
+        header {
+            background: #0b6fa4;
+            padding: 15px;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav {
+            background: #084d72;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 12px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 6px 12px;
+        }
+
+        nav a:hover {
+            background: white;
+            color: #084d72;
+            border-radius: 5px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            background: #dff3ff;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            color: #0b5f89;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #444;
+        }
+
+        .section {
+            padding: 25px 20px;
+        }
+
+        h2 {
+            color: #0b5f89;
+            margin-bottom: 10px;
+        }
+
+        .service-box {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 5px solid #0b6fa4;
+            border-radius: 6px;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 12px;
+            border-radius: 5px;
+            border: 1px solid #bbb;
+        }
+
+        button {
+            background: #0b6fa4;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background: #084d72;
+        }
+
+        footer {
+            background: #0b6fa4;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>🌿 Dr. Care Clinic</header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <h1>Welcome to Dr. Care Clinic</h1>
+        <p>Best Medical Treatment • Experienced Doctors • 24/7 Support</p>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section" id="services">
+        <h2>Our Services</h2>
+
+        <div class="service-box">✔ General Checkup</div>
+        <div class="service-box">✔ Child Specialist</div>
+        <div class="service-box">✔ Women’s Care</div>
+        <div class="service-box">✔ Skin & Hair Treatment</div>
+        <div class="service-box">✔ Online Consultation</div>
+    </section>
+
+    <!-- APPOINTMENT SECTION -->
+    <section class="section" id="appointment">
+        <h2>Book an Appointment</h2>
+
+        <form>
+            <label>Your Name</label>
+            <input type="text" required>
+
+            <label>Your Phone</label>
+            <input type="tel" required>
+
+            <label>Select Doctor</label>
+            <select>
+                <option>Dr. Sharma - General Physician</option>
+                <option>Dr. Mehta - Child Specialist</option>
+                <option>Dr. Gupta - Gynecologist</option>
+            </select>
+
+            <label>Your Message</label>
+            <textarea rows="4"></textarea>
+
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> 123 Medical Street, Pune</p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>Email:</strong> doctorclinic@gmail.com</p>
+    </section>
+
+    <footer>© 2025 Dr. Care Clinic | All Rights Reserved</footer>
+
+</body>
+
+</html>
